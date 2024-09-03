@@ -6,7 +6,7 @@ pipeline {
             steps {
                 checkout scm
                 echo 'successfully complete  git checkout'
-            
+                
             }
         }
 
@@ -35,12 +35,9 @@ pipeline {
         }
         stage('build image') {
             steps {
-                steps {
-                    sh 'docker build -t firstimage:tag01'
-                    echo 'successfully image build'
-                }
                 
-                
+                sh 'docker build -t firstimage:tag01'
+                echo 'successfully image build'
             }
           
         }
