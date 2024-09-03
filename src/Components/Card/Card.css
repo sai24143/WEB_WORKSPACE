@@ -1,0 +1,29 @@
+.Cards{
+    
+    width: 10rem;
+    height: 17rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+    background-color:rgb(243, 241, 241);
+    border: double 10px orange;
+    box-shadow: 23cap;
+    border-radius: 20px;
+    padding: 0px 26px 2rem 26px;
+    text-align: center;
+
+}
+
+.Cards > :nth-child(4){
+
+height: 1cm;
+
+color:coral;
+font-style: italic;
+cursor: pointer;
+
+}

@@ -1,0 +1,74 @@
+.footer{
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+   
+    display: flex;
+    
+    margin-top: 6cm;
+}
+
+ .f-page{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  flex-direction: column;
+  margin-top: 5rem;
+  gap: 4rem;
+  width: 100%;
+ 
+  background: #f49c30;
+}
+ .f-icons{
+  display: flex;
+  gap: 2rem;
+  
+
+ 
+  
+  
+  
+  
+}
+.f-page{
+  font-size:larger;
+  font-style: oblique;
+  color: aliceblue;
+  
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+ .f-icons> :nth-child(1){
+  background: #f7f4f4;
+  
+}
+.f-icons> :nth-child(2){
+  background: #f7f4f4;
+  
+}
+.f-icons> :nth-child(3){
+  background: #f7f4f4;
+  width: 13%;
+  height: 13%;
+  
+}
+
+
+@media screen and (max-width: 480px){
+  .f-page{
+    transform: scale(.9);
+    font-size: larger;
+  }
+  .f-icons{
+    width:40% ;
+  }
+  
+}
+
+ 

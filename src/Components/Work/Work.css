@@ -1,0 +1,101 @@
+.work{
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+.p-name{
+    color: coral;
+    
+    
+
+}
+
+
+.c-cards{
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  height: 4cm;
+  
+  
+  
+  
+}
+
+.c-cards :nth-child(1){
+  position: relative;
+  
+  
+}
+.c-cards :nth-child(2){
+  position: relative;
+}
+.c-cards :nth-child(3){
+  position: relative;
+}
+  
+
+
+
+@media screen and (max-width: 480px) {
+  .work{
+
+    margin-top: 30cm;
+
+    flex-direction: column;
+    align-items:center;
+    
+    
+    
+  }
+  .work{
+    display: flex;
+    flex-direction:column;
+    
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-left:1mm ;
+
+    
+  }
+  .c-cards{
+    flex-direction:row;
+    gap: 1mm;
+    
+   
+  }
+  
+  .work > :nth-child(3){
+    margin-top: -7rem;
+  }
+
+   
+
+
+
+
+
+
+  /* .work{
+    
+    margin-top:30cm;
+    margin-bottom: 5cm;
+
+   
+  }
+  .blur-2{
+    display: none;
+  } */
+}
+
+
+
+
+
+
+
+
+
+
