@@ -6,7 +6,7 @@ pipeline {
             steps {
                 checkout scm
                 echo 'successfully complete  git checkout'
-                
+            
             }
         }
 
