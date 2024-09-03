@@ -36,7 +36,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                sh 'sudo -'
+                
                 sh 'docker build -t firstimage:1.011 .'
                 echo 'successfully image build'
             }
