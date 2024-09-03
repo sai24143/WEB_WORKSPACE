@@ -1,9 +1,9 @@
 FROM node:latest
-WORKDIR /app
+WORKDIR /apps
 # COPY package*.json ./
 ADD . .
 RUN npm install
-COPY . .
+# COPY . .
 CMD ["npm","start"]
 
 
