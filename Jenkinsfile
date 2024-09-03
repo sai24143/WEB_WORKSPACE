@@ -33,10 +33,10 @@ pipeline {
                 
             }
         }
-        stage('build image') {
+        stage('Build Image') {
             steps {
                 
-                sh 'docker build -t firstimage:tag01'
+                sh 'docker build -t firstimage:1.0 .'
                 echo 'successfully image build'
             }
           
