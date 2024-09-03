@@ -49,7 +49,7 @@ pipeline {
                 
                 withCredentials([usernamePassword(credentialsId: 'docker-hub-credentialss', passwordVariable: '!d35iww_Hj35FcH', usernameVariable: 'sumanth24143')]) {
                     
-                    sh 'docker login -u $sumanth24143 -p $!d35iww_Hj35FcH '
+                    sh 'docker login -u "$sumanth24143" -p "$!d35iww_Hj35FcH" '
                     sh 'docker tag firstimage:1.0 sumanth24143/firstimage:1.011  '
                     sh 'docker push sumanth24143/firstimage:1.011 '
                     sh 'docker logout'
