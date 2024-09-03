@@ -12,17 +12,17 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                script {
-                    if (fileExists('node_modules')){
-                        echo 'Dependencies already installed, skipping installation...'
+                // script {
+                //     if (fileExists('node_modules')){
+                //         echo 'Dependencies already installed, skipping installation...'
 
-                    }else {
-                        echo 'installing dependencies....'
-                        sh 'sudo apt update'
-                        sh 'sudo apt install nodejs'
-                        sh 'sudo apt install npm'
-                    }
-                }
+                //     }else {
+                //         echo 'installing dependencies....'
+                //         sh 'sudo apt update'
+                //         sh 'sudo apt install nodejs'
+                //         sh 'sudo apt install npm'
+                //     }
+                // }
                 
                 echo 'successfully install node'
             }
