@@ -37,7 +37,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 
-                sh 'docker build -t firstimage:1.011 .'
+                sh 'docker build -t updateimage:1.01 .'
                 echo 'successfully image build'
             }
           
@@ -50,8 +50,8 @@ pipeline {
                 withCredentials([usernamePassword(credentialsId: 'docker-hub-credentialss', passwordVariable: 'sai123@sai', usernameVariable: 'sumanth24143')]) {
                     
                     sh 'docker login -u "$sumanth24143" -p "$sai123@sai" '
-                    sh 'docker tag firstimage:1.011 sumanth24143/firstimage:2.012 '
-                    sh 'docker push sumanth24143/firstimage:2.012 '
+                    sh 'docker tag updateimage:1.011 sumanth24143/updateimage:2.012 '
+                    sh 'docker push sumanth24143/updateimage:2.012 '
                     sh 'docker logout'
     // some block
 
