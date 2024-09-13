@@ -16,7 +16,7 @@ const About = () => {
             <span>Full Stack developer with Persional experience in libraries and frameworks such as React.js, Django, and Python. Additionally, I have knowledge of the basics of Linux, GitHub, and Bash scripting.
 </span>
 
-<a href="https://docs.google.com/document/d/1xv2c-1OHKJ55aZf92CL1eNdRVmuS-aSx/edit"> <button className='button'> Resume</button> </a>
+<a href="https://docs.google.com/document/d/19W9ficRRRwrlPjYfQBWhS6sS2nEO7E0B/edit?usp=sharing&ouid=117985412890839154857&rtpof=true&sd=true"> <button className='button'> Resume</button> </a>
 
 </div>
 
